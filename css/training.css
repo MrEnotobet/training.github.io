@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.girl {
+    height: 700px;
+    background-image: url("../images/firs_1200_670.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+}
+  
+.nav {
+    float: left;
+}
+  
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #111;
+}
+
+
+
+
+.main_text {
+    background-image: none;
+    background-color: transparent;
+    color:white;
+    text-shadow: 8px 10px 10px #000000;
+    border-top:none;
+    border-bottom: none;
+    padding: 90px 40px;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.title {
+    font-size: 36px;
+    padding:30px 10px;
+}
+
+
