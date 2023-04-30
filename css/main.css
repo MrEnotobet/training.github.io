@@ -45,3 +45,58 @@ html {
 .nav a:hover {
     background-color: #111;
 }
+
+
+h1{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    font-size: clamp(1px, 13vw, 100px);
+    opacity: 0;
+    color: white;
+}
+
+section{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100vh;
+    width: 95%;   
+}
+
+span{
+    display: inline-block;
+    transform: translateX(-10px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.about{
+    overflow: hidden;
+    height: 500px;;
+    overflow: hidden;
+    background-position-x:left ;
+}   
+
+.about-main{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    
+}
+.about-text{
+    background-color: rgb(12, 15, 37);
+    padding: 30px ;
+    width:500px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
